@@ -1,0 +1,99 @@
+.HTML-bar {
+  height: 13px;
+  width: 90%;
+  animation-name: html-bar;
+  animation-duration: 5s;
+  animation-timing-function: inherit;
+  animation-iteration-count: infinite;
+  animation-delay: 5s;
+  background: linear-gradient(to bottom, rgb(255, 13, 13), rgb(31, 255, 72));
+  border-radius: 5px;
+}
+@keyframes html-bar {
+  from {
+    width: 0%;
+    background-color: black;
+  }
+
+  to {
+    width: 90%;
+    background: linear-gradient(to bottom, rgb(255, 13, 13), rgb(31, 255, 72));
+    border-radius: 5px;
+    box-shadow: 0px 0px 3px 0px greenyellow;
+
+  }
+}
+
+.CSS-CSS3-bar {
+  height: 13px;
+  width: 70%;
+  animation-name: CSS-CSS3-bar;
+  animation-duration: 5s;
+  animation-timing-function: inherit;
+  animation-iteration-count: infinite;
+  animation-delay: 5s;
+  background: linear-gradient(to bottom, rgb(255, 13, 13), rgb(31, 255, 72));
+  border-radius: 5px;
+}
+@keyframes CSS-CSS3-bar {
+  from {
+    width: 0%;
+    background-color: black;
+  }
+
+  to {
+    width: 70%;
+    background: linear-gradient(to bottom, rgb(255, 13, 13), rgb(31, 255, 72));
+    border-radius: 5px;
+  }
+}
+
+.javascript-bar {
+  height: 13px;
+  width: 0%;
+  margin-left: 0px;
+  padding: 5px;
+  animation-name: javascript-bar;
+  animation-duration: 5s;
+  animation-timing-function: inherit;
+  animation-iteration-count: infinite;
+  animation-delay: 5s;
+  background: linear-gradient(to bottom, rgb(255, 13, 13), rgb(31, 255, 72));
+  border-radius: 5px;
+}
+@keyframes javascript-bar {
+  from {
+    width: 0%;
+    background-color: black;
+  }
+
+  to {
+    width: 5%;
+    background: linear-gradient(to bottom, rgb(255, 13, 13), rgb(31, 255, 72));
+    border-radius: 5px;
+  }
+}
+
+.adobe-photoshop-bar {
+  height: 13px;
+  width: 50%;
+  animation-name: adobe-photoshop-bar;
+  animation-duration: 5s;
+  animation-timing-function: inherit;
+  animation-iteration-count: infinite;
+  animation-delay: 5s;
+  background: linear-gradient(to bottom, rgb(255, 13, 13), rgb(31, 255, 72));
+  border-radius: 5px;
+}
+@keyframes adobe-photoshop-bar {
+  from {
+    width: 0%;
+    background-color: black;
+  }
+
+  to {
+    width: 50%;
+    background: linear-gradient(to bottom, rgb(255, 13, 13), rgb(31, 255, 72));
+    border-radius: 5px;
+  }
+}

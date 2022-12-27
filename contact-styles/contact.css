@@ -1,0 +1,1139 @@
+
+
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgba(0, 0, 0, 0.882);
+}
+/* menu area start */
+
+.nav-container {
+  height: 55px;
+  width: 1600px;
+  display: flex;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border-radius: 25px;
+  margin-top: 10px;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+.nav-container-left {
+  height: 100%;
+  width: 600px;
+  background-color: tan;
+  border-radius: 5px 0px 0px 5px;
+}
+
+.nav-name-logo {
+  display: flex;
+  height: 100%;
+  width: 100%;
+  justify-content: center;
+  justify-items: center;
+  text-align: center;
+  align-items: center;
+  margin: 0 auto;
+  padding: 10px 20px;
+  margin-top: -55px;
+}
+
+.nav-name-logo a {
+  display: flex;
+  height: 100%;
+  width: 100%;
+  margin: 0 auto;
+  color: #404145;
+  text-decoration: none;
+  font-size: 40px;
+  font-weight: 600;
+  padding: 10px 0px;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-logo {
+  height: 55px;
+  width: 100px;
+  margin-left: -25px;
+}
+
+.nav-logo img {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+  object-position: center;
+}
+
+.nav-container-middle {
+  background-color: grey;
+  height: 55px;
+  width: 1000px;
+  display: flex;
+  text-align: center;
+  border-radius: 0 5px 5px 0;
+}
+
+.nav-menu-main {
+  height: 55px;
+  width: 200px;
+  display: block;
+  margin: 0 auto;
+  margin: 0px;
+  margin-top: 15px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.nav-menu-main:hover {
+  height: 45px;
+  width: 150px;
+  background-color: wheat;
+  margin: 0 auto;
+  margin: 5px;
+  text-align: center;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.active-page {
+  height: 45px;
+  width: 150px;
+  background-color: wheat;
+  margin: 0 auto;
+  margin: 5px;
+  text-align: center;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.nav-menu-main a {
+  height: 55px;
+  width: 150px;
+  font-size: 22px;
+  text-transform: capitalize;
+  text-decoration: none;
+  color: black;
+  font-weight: 800;
+}
+
+.nav-menu-main a:hover {
+  height: 50px;
+  width: 156px;
+  /* background-color: red; */
+  margin: 0 auto;
+
+  font-size: 22px;
+
+  font-weight: 100;
+}
+
+.nav-main-menu-dropdown {
+  margin-top: 20px;
+  border-radius: 5px;
+}
+
+.main-menu-dropdown {
+  display: none;
+}
+
+.main-menu-dropdown {
+  height: 60px;
+  width: 150px;
+  /* background-color: royalblue; */
+  margin-left: -10px;
+}
+.nav-menu-main:hover .main-menu-dropdown {
+  display: block;
+  height: 55px;
+  width: 130px;
+  /* background-color: rgb(213, 143, 63); */
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-bottom: 1px double red;
+  margin-top: 5px;
+}
+
+.main-menu-dropdown a:hover {
+  height: 45px;
+  width: 180px;
+  background-color: black;
+  color: greenyellow;
+  margin: 0 auto;
+  margin: 5px;
+  justify-content: center;
+  text-align: center;
+  padding-top: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 10px;
+  border-radius: 5px;
+}
+
+/* menu area end */
+
+
+.contact-area-main {
+  display: flex;
+}
+
+.information-area {
+  height: 700px;
+  width: 800px;
+  margin-left: 160px;
+  margin-top: 100px;
+  font-family: 'Lobster', cursive;
+}
+
+.call-mail {
+  display: flex;
+  height: 80px;
+  width: 700px;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.call {
+  height: 50px;
+  width: 180px;
+  background-color: greenyellow;
+  border-radius: 10px;
+  margin-top: 100px;
+  margin-right: 50px;
+}
+
+.call:hover {
+  background-color: red;
+  color: green;
+}
+
+.call a:hover{
+  color: greenyellow;
+}
+
+.call a {
+  text-decoration: none;
+  color: black;
+  font-size: 22px;
+}
+
+.call-now {
+  display: flex;
+  height: 50px;
+  width: 200px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.btn-img {
+  height: 20px;
+  width: 20px;
+}
+
+.btn-img img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.btn-text {
+  margin-left: 10px;
+}
+
+.mail {
+  height: 50px;
+  width: 180px;
+  background-color: greenyellow;
+  border-radius: 10px;
+  margin-left: 50px;
+  margin-top: 100px;
+}
+
+.mail:hover {
+  background-color: red;
+}
+
+.mail a:hover{
+  color: greenyellow;
+}
+
+.mail a {
+  text-decoration: none;
+  color: black;
+  font-size: 22px;
+}
+
+.mail-now {
+  display: flex;
+  height: 50px;
+  width: 200px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.btn-img {
+  height: 20px;
+  width: 20px;
+}
+
+.btn-img img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.btn-text {
+  margin-left: 10px;
+}
+
+.map-information {
+  height: 400px;
+  width: 600px;
+  margin-top: 100px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.map-information:hover {
+  box-shadow: 50px 15px 1px 1px red;
+}
+
+.address-information {
+  height: 80px;
+  width: 300px;
+  display: flex;
+  margin-left: 90px;
+}
+
+.map-icon {
+  height: 60px;
+  width: 80px;
+}
+
+.map-icon img {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+  object-position: center;
+}
+
+.address-head {
+  font-size: 30px;
+  margin-left: -100px;
+  font-weight: 700;
+  margin-top: -5px;
+  color: red;
+}
+
+.address-text {
+  margin-top: 2px;
+  color: aliceblue;
+  font-size: 20px;
+  margin-bottom: 15px;
+  color: greenyellow;
+}
+
+.display-location {
+  height: 350px;
+  width: 600px;
+  margin: 0 auto;
+  overflow: hidden;
+  margin-left: 100px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: -10px;
+}
+
+/*  contact-form start */
+
+.main-contact-form-area {
+  height: 800px;
+  width: 800px;
+  color: whitesmoke;
+  font-family: 'Playfair Display', serif;
+}
+
+.form-start {
+  height: 700px;
+  width: 650px;
+  margin: 0 auto;
+  margin-top: 140px;
+}
+
+.name {
+  display: flex;
+  height: 70px;
+  width: 600px;
+  margin: 0 auto;
+  
+}
+
+.name:hover{
+
+  color: greenyellow;
+
+}
+
+.name-area-header {
+  height: 50px;
+  width: 200px;
+  margin: 0 auto;
+  font-size: 22px;
+}
+
+.name-input-area {
+  height: 35px;
+  border-radius: 10px;
+  margin-top: 5px;
+  border: none;
+  font-size: 24px;
+  padding: 10px;
+  color: black;
+  font-family: 'Lobster Two', cursive;
+}
+
+.name-input-area:hover{
+  background-color: black;
+  color: greenyellow;
+
+}
+
+.user-phone-number {
+  height: 50px;
+  width: 400px;
+  font-size: 22px;
+  margin-left: 80px;
+  margin-top: 10px;
+}
+
+.user-phone-number:hover{
+  
+  color: greenyellow;
+
+}
+.select-cou-code {
+  height: 35px;
+  border-radius: 10px;
+  margin-top: 5px;
+  border: none;
+  font-size: 18px;
+  font-family: 'Lobster Two', cursive;
+}
+
+.select-cou-code:hover{
+  background-color: black;
+  color: greenyellow;
+
+}
+
+
+.number-code-input {
+  height: 35px;
+  border-radius: 10px;
+  margin-top: 5px;
+  border: none;
+  font-size: 18px;
+  margin-left: 15px;
+  padding: 5px;
+  font-family: 'Lobster Two', cursive;
+}
+
+.number-code-input:hover{
+
+  background-color: black;
+  color: greenyellow;
+
+
+
+}
+.user-email {
+  height: 80px;
+  width: 300px;
+  margin-left: 80px;
+  margin-top: 30px;
+  font-size: 22px;
+}
+.user-email:hover{
+  
+  color: greenyellow;
+
+}
+.user-email-input {
+  height: 50px;
+  width: 200px;
+  font-size: 20px;
+  
+}
+
+.email-id-input {
+  height: 35px;
+  width: 300px;
+  border-radius: 10px;
+  margin-top: 5px;
+  border: none;
+  font-size: 24px;
+  padding: 10px;
+  font-family: 'Lobster Two', cursive;  
+
+}
+
+.email-id-input:hover{
+
+  background-color: black;
+  color: greenyellow;
+
+}
+
+.mail-text-box {
+  margin-left: 80px;
+  
+}
+
+.mail-text-box:hover{
+  color: greenyellow;
+}
+
+.mail-label {
+  height: 20px;
+  width: 200px;
+  font-size: 20px;
+}
+
+.message-box {
+  height: 200px;
+  width: 520px;
+  border-radius: 10px;
+  margin-top: 15px;
+  border: none;
+  font-size: 24px;
+  resize: none;
+  padding: 15px;
+  font-family: 'Lobster Two', cursive;
+}
+
+.message-box:hover {
+  background-color: black;
+  color: greenyellow;
+}
+
+.reset-submit-area {
+  display: flex;
+  height: 80px;
+  width: 500px;
+  margin: 0 auto;
+  margin-top: 25px;
+  justify-content: space-around;
+}
+
+.reset-submit-btn {
+  height: 50px;
+  width: 100px;
+  border-radius: 10px;
+  background-color: red;
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: 700;
+  box-shadow: 1px 1px 1px 1px greenyellow;
+}
+
+.reset-submit-btn:hover {
+  background-color: greenyellow;
+  box-shadow: 1px 1px 1px 1px red;
+}
+
+
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: rgba(0, 0, 0, 0.882);
+    max-width: 599.99px;
+  }
+
+  .nav-container {
+    height: 100px;
+    width: 580px;
+    display: flex;
+    border-radius: 25px;
+    margin-top: 0px;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    margin-left: -5px;
+    background-color: red;
+  }
+  
+  .nav-container-left {
+    height: 100%;
+    width: 120px;
+    background-color: tan;
+    border-radius: 5px 0px 0px 5px;
+  }
+  
+  /* .nav-name-logo {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+    justify-items: center;
+    text-align: center;
+    align-items: center;
+    margin: 0 auto;
+    padding: 10px 10px;
+    margin-top: -55px;
+    margin-left: 25px;
+  }
+  
+  .nav-name-logo a {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    margin: 0 auto;
+    color: #404145;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 10px 0px;
+    justify-content: center;
+    align-items: center;
+  } */
+
+  .nav-name-logo{
+    display: none;
+  }
+  
+  .nav-logo{
+  
+    height: 100px;
+    width: 120px;
+    margin-left: 0px;
+    /* margin-top: 10px; */
+    
+    
+  }
+  
+  .nav-logo img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 5px 0px 0px 5px;
+  }
+  
+  .nav-container-middle {
+    background-color: grey;
+    height: 100px;
+    width: 450px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0 5px 5px 0;
+  }
+  
+  .nav-menu-main {
+    height: 55px;
+    width: 200px;
+    display: block;
+    margin: 0 auto;
+    margin: 0px;
+    margin-top: 20px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .nav-menu-main:hover {
+    height: 45px;
+    width: 150px;
+    background-color: white;
+    margin: 0 auto;
+    margin: 2px;
+    text-align: center;
+    padding: 5px;
+    border-radius: 5px;
+    margin-top: -5px;
+  }
+  
+  .active-page {
+    height: 40px;
+    width: 150px;
+    background-color: white;
+    margin: 0 auto;
+    margin: 5px;
+    text-align: center;
+    padding: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-radius: 5px;
+    margin-top: -5px;
+  }
+  
+  .nav-menu-main a {
+    height: 55px;
+    width: 150px;
+    font-size: 15px;
+    text-transform: capitalize;
+    text-decoration: none;
+    color: black;
+    font-weight: 800;
+  }
+  
+  .nav-menu-main a:hover {
+    height: 50px;
+    width: 156px;
+    /* background-color: red; */
+    margin: 0 auto;
+    font-size: 18px;
+    font-weight: 100;
+  }
+  
+  .nav-main-menu-dropdown {
+    margin-top: 15px;
+    border-radius: 5px;
+  }
+  
+  .main-menu-dropdown {
+    display: none;
+  }
+  
+  .main-menu-dropdown {
+    height: 60px;
+    width: 150px;
+    background-color: royalblue;
+    margin-left: -10px;
+  }
+  
+  .nav-menu-main:hover .main-menu-dropdown {
+    display: block;
+    height: 60px;
+    width: 180px;
+    background-color: rgb(213, 143, 63);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-bottom: 1px double red;
+  }
+  
+  .main-menu-dropdown a:hover {
+    height: 45px;
+    width: 180px;
+    background-color: white;
+    margin: 0 auto;
+    margin: 5px;
+    text-align: center;
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 10px;
+    border-radius: 5px;
+  }
+  
+  .contact-area-main {
+    display: block;
+    background-color: darkblue;
+    width: 400px;
+  }
+  
+  .information-area {
+    height: 500px;
+    width: 400px;
+    margin-left: 16px;
+    margin-top: 100px;
+    font-family: 'Lobster', cursive;
+  }
+  
+  .call-mail {
+    display: flex;
+    height: 80px;
+    width: 400px;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: -100px;
+  }
+  
+  .call {
+    height: 50px;
+    width: 120px;
+    background-color: greenyellow;
+    border-radius: 10px;
+    margin-top: 100px;
+    margin-right: 30px;
+  }
+  
+  .call:hover {
+    background-color: red;
+    color: green;
+  }
+  
+  .call a:hover{
+    color: greenyellow;
+  }
+  
+  .call a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+  }
+  
+  .call-now {
+    display: flex;
+    height: 50px;
+    width: 150px;
+  }
+  
+  .btn-img {
+    height: 20px;
+    width: 20px;
+    margin-left: -30px;
+  }
+  
+  .btn-img img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+  }
+  
+  .btn-text {
+    margin-left: 10px;
+  }
+  
+  .mail {
+    height: 50px;
+    width: 120px;
+    background-color: greenyellow;
+    border-radius: 10px;
+    margin-left: 50px;
+    margin-top: 100px;
+  }
+  
+  .mail:hover {
+    background-color: red;
+  }
+  
+  .mail a:hover{
+    color: greenyellow;
+  }
+  
+  .mail a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+  }
+  
+  .mail-now {
+    display: flex;
+    height: 50px;
+    width: 150px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .btn-img {
+    height: 20px;
+    width: 20px;
+  }
+  
+  .btn-img img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+  }
+  
+  .btn-text {
+    margin-left: 10px;
+  }
+  
+  .map-information {
+    height: 250px;
+    width: 400px;
+    margin-top: 100px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-left: -100px;
+  }
+  
+  .map-information:hover {
+    box-shadow: 50px 15px 1px 1px red;
+  }
+  
+  .address-information {
+    height: 80px;
+    width: 300px;
+    display: flex;
+    margin-left: 90px;
+  }
+  
+  .map-icon {
+    height: 60px;
+    width: 80px;
+  }
+  
+  .map-icon img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+    object-position: center;
+  }
+  
+  .address-head {
+    font-size: 30px;
+    margin-left: -100px;
+    font-weight: 700;
+    margin-top: -5px;
+    color: red;
+  }
+  
+  .address-text {
+    margin-top: 2px;
+    color: aliceblue;
+    font-size: 20px;
+    margin-bottom: 15px;
+    color: greenyellow;
+  }
+  
+  .display-location {
+    height: 250px;
+    width: 350px;
+    margin: 0 auto;
+    overflow: hidden;
+    margin-left: 100px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: -10px;
+  }
+  
+  /*  contact-form start */
+  
+  .main-contact-form-area {
+    height: 700px;
+    width: 400px;
+    color: whitesmoke;
+    font-family: 'Playfair Display', serif;
+    background-color: gold;
+  }
+  
+  .form-start {
+    height: 700px;
+    width: 500px;
+    margin: 0 auto;
+    margin-top: 140px;
+    margin-left: -65px;
+  }
+  
+  .name {
+    display: flex;
+    height: 70px;
+    width: 400px;
+    margin: 0 auto;
+    margin-left: 80PX;
+    
+  }
+  
+  .name:hover{
+  
+    color: greenyellow;
+  
+  }
+  
+  .name-area-header {
+    height: 50px;
+    width: 200px;
+    margin: 0 auto;
+    font-size: 22px;
+  }
+  
+  .name-input-area {
+    height: 35px;
+    border-radius: 10px;
+    margin-top: 5px;
+    border: none;
+    font-size: 20px;
+    padding: 10px;
+    color: black;
+    font-family: 'Lobster Two', cursive;
+    width: 180px;
+  }
+  
+  .name-input-area:hover{
+    background-color: black;
+    color: greenyellow;
+  
+  }
+  
+  .user-phone-number {
+    height: 50px;
+    width: 400px;
+    font-size: 22px;
+    margin-left: 80px;
+    margin-top: 10px;
+  }
+  
+  .user-phone-number:hover{
+    
+    color: greenyellow;
+  
+  }
+  .select-cou-code {
+    height: 35px;
+    border-radius: 10px;
+    margin-top: 5px;
+    border: none;
+    font-size: 18px;
+    font-family: 'Lobster Two', cursive;
+  }
+  
+  .select-cou-code:hover{
+    background-color: black;
+    color: greenyellow;
+  
+  }
+  
+  
+  .number-code-input {
+    height: 35px;
+    border-radius: 10px;
+    margin-top: 5px;
+    border: none;
+    font-size: 18px;
+    margin-left: 15px;
+    padding: 5px;
+    font-family: 'Lobster Two', cursive;
+  }
+  
+  .number-code-input:hover{
+  
+    background-color: black;
+    color: greenyellow;
+  
+  
+  
+  }
+  .user-email {
+    height: 80px;
+    width: 300px;
+    margin-left: 80px;
+    margin-top: 30px;
+    font-size: 22px;
+  }
+  .user-email:hover{
+    
+    color: greenyellow;
+  
+  }
+  .user-email-input {
+    height: 50px;
+    width: 200px;
+    font-size: 20px;
+    
+  }
+  
+  .email-id-input {
+    height: 35px;
+    width: 300px;
+    border-radius: 10px;
+    margin-top: 5px;
+    border: none;
+    font-size: 24px;
+    padding: 10px;
+    font-family: 'Lobster Two', cursive;  
+  
+  }
+  
+  .email-id-input:hover{
+  
+    background-color: black;
+    color: greenyellow;
+  
+  }
+  
+  .mail-text-box {
+    margin-left: 80px;
+    
+  }
+  
+  .mail-text-box:hover{
+    color: greenyellow;
+  }
+  
+  .mail-label {
+    height: 20px;
+    width: 200px;
+    font-size: 20px;
+  }
+  
+  .message-box {
+    height: 200px;
+    width: 380px;
+    border-radius: 10px;
+    margin-top: 15px;
+    border: none;
+    font-size: 24px;
+    resize: none;
+    padding: 15px;
+    font-family: 'Lobster Two', cursive;
+  }
+  
+  .message-box:hover {
+    background-color: black;
+    color: greenyellow;
+  }
+  
+  .reset-submit-area {
+    display: flex;
+    height: 80px;
+    width: 300px;
+    margin: 0 auto;
+    margin-top: 25px;
+    justify-content: space-evenly;
+    margin-left: 100px;
+  }
+  
+  .reset-submit-btn {
+    height: 50px;
+    width: 100px;
+    border-radius: 10px;
+    background-color: red;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 700;
+    box-shadow: 1px 1px 1px 1px greenyellow;
+  }
+  
+  .reset-submit-btn:hover {
+    background-color: greenyellow;
+    box-shadow: 1px 1px 1px 1px red;
+  }
+
+
+
+
+
+}
