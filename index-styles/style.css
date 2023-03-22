@@ -186,110 +186,62 @@ body {
 
 /* main display start */
 
-.main-display-content {
+/*  Section 2 area Start */
+
+ .Section_2 {
   height: 800px;
   width: 1600px;
-  margin: 10px auto;
-  justify-content: center;
-  align-items: center;
-  justify-items: center;
-  /* background-color: rebeccapurple; */
-  
+  margin: 0 auto;
+  margin-top: 15px;
 }
 
-.display-image {
-  height: 800px;
-  width: 1600px;
-}
-
-.display-image img {
+.display_area {
   height: 100%;
   width: 100%;
+}
+.display_image {
+  height: 100%;
+  width: 100%;
+  border-radius: 25%;
+}
+.display_image img {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  object-position: top;
   object-fit: cover;
-  object-position: center;
 }
 
-.main-text-area-blur {
-  height: 800px;
-  width: 600px;
-   margin-top: -800px; 
-  margin-left: 0px;
-  z-index: -1;
-  background: rgba(36, 173, 61, 0.5);
-  backdrop-filter: blur(10px);
-  display: flex;
+.disp_info {
+  height: 500px;
+  width: 45%;
 }
 
-.main-text-area {
-  margin-top: 200px;
-  margin-left: 20px;
-  z-index: 1;
-}
-
-.main-head {
-  font-size: 25px;
-  padding: 25px;
-  padding-bottom: 0px;
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande";
-  margin-top: 100px;
-}
-
-.name-intro {
-  height: 100px;
-  width: 500px;
-  font-size: 60px;
-  color: black;
-  padding: 25px;
-  padding-top: 20px;
-  font-style: normal;
-  margin-top: -50px;
-}
-
-.name-intro span {
-  font-size: 80px;
-  /* font-family: 'Alkalami', serif; */
-  font-family: "Dancing Script", cursive;
-  color: rgb(255, 0, 0);
-  font-style: italic;
-  font-weight: bolder;
-}
-
-.my-profession {
-  padding-top: 100px;
-  padding-left: 40px;
-  font-size: 24px;
-}
-
-.display-bio {
-  font-size: 28px;
-  margin-top: 100px;
-  font-weight: 800;
-  margin-left: 10px;
-  margin-right: 10px;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-  text-transform: capitalize;
-}
-
-.know-more-btn {
-  height: 50px;
-  width: 150px;
+.dispTxt {
+  height: 50%;
+  width: 95%;
   margin: 0 auto;
-  margin-top: 100px;
-  margin-left: 180px;
-  align-items: center;
-  border-radius: 10px;
-  font-size: 24px;
-  cursor: pointer;
+  margin-top: -410px;
 }
 
-.know-more-btn:hover {
-  background-color: black;
-  color: greenyellow;
-  border: 1px solid turquoise;
-  font-weight: 600;
-  font-family: cursive;
+.helloTxt {
+  font-size: 45px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande";
+  margin-left: 15px;
 }
 
+.nameTxt {
+  font-size: 100px;
+  font-family: "Playfair Display", serif;
+}
+.nameTxt span {
+  font-size: 100px;
+  color: Red;
+  font-style: italic;
+}
+
+
+/* Section 2 End */
 /* about area start */
 
 .about-area {
